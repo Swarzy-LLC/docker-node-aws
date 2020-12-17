@@ -26,3 +26,9 @@ Publish Y'all
 > docker tag <image-id> swarzyllc/node-aws:latest
 > docker push swarzyllc/node-aws
 ```
+
+Run shell locally to test it out
+
+```sh
+docker run -it swarzyllc/node-aws /bin/bash
+```
